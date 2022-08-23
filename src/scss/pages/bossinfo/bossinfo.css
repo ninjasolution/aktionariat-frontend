@@ -1,0 +1,306 @@
+#BossInfo {
+  background: white;
+  width: 100%;
+  min-height: 100vh;
+  font-size: 1rem;
+}
+
+#BossInfo * {
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+#BossInfo .page_wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#BossInfo .section_wrapper {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+#BossInfo .section_title {
+  font-size: 1.7777777777777777rem;
+}
+
+#BossInfo #Registration {
+  background: #f4f6f6;
+  padding-top: 7.78rem;
+  padding-bottom: 7.78rem;
+}
+
+#BossInfo #Registration .wpb_wrapper h2 {
+  font-size: 2.7777777777777777rem;
+  line-height: 1.14;
+  margin-bottom: 0.222rem;
+  line-height: 1.13;
+}
+
+#BossInfo #Registration .wpb_wrapper p {
+  font-size: 1.2222222222222223rem;
+}
+
+#BossInfo #Registration .wpb_title {
+  padding-bottom: 5rem;
+}
+
+#BossInfo #Registration .form_wrapper {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  color: #323131;
+}
+
+#BossInfo #Registration .form_wrapper input,
+#BossInfo #Registration .form_wrapper textarea {
+  width: 240px;
+  border: 1px solid #323131;
+  display: inline-block;
+}
+
+#BossInfo #Registration .form_wrapper input:focus,
+#BossInfo #Registration .form_wrapper textarea:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem #0d6efd40;
+          box-shadow: 0 0 0 0.25rem #0d6efd40;
+  border: 1px solid #323131 !important;
+  outline: none;
+}
+
+#BossInfo #Registration .form_wrapper textarea {
+  height: 9rem;
+  display: inline-block;
+}
+
+#BossInfo #Registration .form_wrapper .form_control_sm {
+  width: 135px;
+}
+
+#BossInfo #Registration .form_wrapper * {
+  color: #323131;
+  font-weight: 300;
+}
+
+#BossInfo #Registration .form_wrapper p {
+  font-size: 16px;
+}
+
+#BossInfo #Registration .form_wrapper .btn-connect-wallet {
+  background-color: #085ed0;
+  color: #fff;
+  line-height: 1.5;
+  padding: 6px 25px;
+  font-size: inherit;
+  margin-top: 15px;
+  border-radius: 5px;
+  display: inline-block;
+  min-width: 238px;
+}
+
+#BossInfo #Brokerbot {
+  background: #f4f6f6;
+}
+
+#BossInfo #Brokerbot ::-moz-selection {
+  background: #004d9e;
+  color: #fff;
+}
+
+#BossInfo #Brokerbot ::selection {
+  background: #004d9e;
+  color: #fff;
+}
+
+#BossInfo #Brokerbot .brokerbot_wrapper {
+  width: 100%;
+  max-width: 640px;
+  min-width: 320px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 24px;
+  border: 1px solid #dcdcdc;
+  background-color: #fafafa;
+}
+
+#BossInfo #Brokerbot .brokerbot_wrapper .card_header {
+  padding: 16px 20px;
+  background-color: #fafafa;
+  border-radius: 24px 24px 0 0;
+}
+
+#BossInfo #Brokerbot .brokerbot_wrapper .card_header .progress-bar {
+  background-color: #f0f0f0;
+  height: 2px;
+  margin-top: 10px;
+  color: #004d9e;
+}
+
+#BossInfo #Brokerbot .brokerbot_wrapper .card_body {
+  background-color: #f0f0f0;
+  border-radius: 24px;
+  padding: 28px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #dcdcdc;
+}
+
+#BossInfo #Brokerbot .brokerbot_wrapper .card_body .title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000;
+}
+
+#BossInfo #Brokerbot .brokerbot_wrapper .card_body .form_control {
+  overflow: hidden;
+}
+
+#BossInfo #Brokerbot .brokerbot_wrapper .card_body .form_control .form_label {
+  font-size: 20px;
+  color: #000;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+#BossInfo #Brokerbot .brokerbot_wrapper .card_body .btn_control {
+  background-color: #e6e6e6;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 1px solid #d6d6d6;
+}
+
+#BossInfo #Brokerbot .brokerbot_wrapper .card_body .btn_control .btn_selection {
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+  padding: 12px;
+  color: #0009;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#BossInfo #Brokerbot .brokerbot_wrapper .card_body .btn_control .btn_selection.active_btn {
+  background-color: #fafafa;
+  color: #004d9e;
+  border: 1px solid #004d9e;
+}
+
+#BossInfo #Brokerbot .brokerbot_wrapper .card_body .control_boss {
+  color: #000;
+  font-size: 16px;
+  border: 1px solid #d6d6d6;
+}
+
+#BossInfo #Brokerbot .brokerbot_wrapper .card_body .control_boss .inside_text {
+  padding: 12px 12px 12px 16px;
+  background-color: #fafafa;
+}
+
+#BossInfo #Brokerbot .brokerbot_wrapper .card_body .control_boss input {
+  border: none;
+  outline: none;
+}
+
+#BossInfo #Brokerbot .brokerbot_wrapper .card_body .control_boss label {
+  margin-right: 16px;
+  padding-left: 16px;
+  color: #000;
+  border-left: 1px solid #e6e6e6;
+}
+
+#BossInfo #Brokerbot .brokerbot_wrapper .card_body .hover_border {
+  border: 1px solid transparent;
+}
+
+#BossInfo #Brokerbot .brokerbot_wrapper .card_body .hover_border:hover {
+  border: 1px solid #004d9e;
+}
+
+#BossInfo #Brokerbot .brokerbot_wrapper .card_body .btn_submit_action {
+  color: #fff;
+  text-align: center;
+  background-color: #004d9e;
+  border: 1px solid #004d9e;
+  border-radius: 4px;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  width: 100%;
+}
+
+#BossInfo #Brokerbot .cta_box {
+  width: 18rem;
+  height: 18rem;
+  border: 2px solid #004d9e;
+  border-radius: 50%;
+  position: relative;
+  display: none;
+}
+
+#BossInfo #Brokerbot .cta_box .cta_text {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  text-decoration: none;
+  border-bottom: 0;
+  padding: 3rem 2rem;
+  text-align: center;
+  color: #004d9e;
+  -webkit-transform: rotate(-10.22deg);
+          transform: rotate(-10.22deg);
+}
+
+#BossInfo #PriceChart {
+  background: #f4f6f6;
+}
+
+#BossInfo #DownloadContent {
+  background: #f4f6f6;
+}
+
+#BossInfo #DownloadContent .document_pdf {
+  font-size: 1.2222222222222223rem;
+  font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#BossInfo #DownloadContent .document_pdf .pdf_icon {
+  display: inline-block;
+  height: 28px;
+  width: 24px;
+  background-position: 0 -22px;
+  background-image: url("../../../icons/iconset.png");
+  background-repeat: no-repeat;
+  background-size: 302px;
+}
+
+#BossInfo #DownloadContent .primary_custom {
+  background: #004d9e;
+  color: #fff;
+}
+
+#BossInfo #DownloadContent .primary_custom:hover {
+  background: #003a77;
+}
+/*# sourceMappingURL=bossinfo.css.map */

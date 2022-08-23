@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,aADW,CACX,KAAK,CAAC;EACJ,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,QAAQ;CAS1B;;AAZH,AAII,aAJS,CACX,KAAK,CAGH,EAAE,CAAC;EACD,aAAa,EAAE,GAAG,CAAC,KAAK,CAAC,yBAAyB;CAMnD;;AAXL,AAOQ,aAPK,CACX,KAAK,CAGH,EAAE,CAEA,EAAE,AACC,IAAK,CAAA,YAAY,EAAE;EAClB,OAAO,EAAE,IAAI;CACd",
+    "sources": [
+        "CompanyTable.scss"
+    ],
+    "names": [],
+    "file": "CompanyTable.css"
+}

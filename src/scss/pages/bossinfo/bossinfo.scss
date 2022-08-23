@@ -1,0 +1,244 @@
+#BossInfo {
+  background: white;
+  width: 100%;
+  min-height: 100vh;
+  font-size: 1rem;
+  * {
+    color: black;
+    font-family: "Roboto", sans-serif;
+  }
+  .page_wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section_wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  .section_title {
+    font-size: 1.7777777777777777rem;
+  }
+  #Registration {
+    background: #f4f6f6;
+    padding-top: 7.78rem;
+    padding-bottom: 7.78rem;
+    .wpb_wrapper {
+      h2 {
+        font-size: 2.7777777777777777rem;
+        line-height: 1.14;
+        margin-bottom: 0.222rem;
+        line-height: 1.13;
+      }
+      p {
+        font-size: 1.2222222222222223rem;
+      }
+    }
+    .wpb_title {
+      padding-bottom: 5rem;
+    }
+    .form_wrapper {
+      width: 100%;
+      max-width: 500px;
+      margin: auto;
+      color: #323131;
+      input,
+      textarea {
+        width: 240px;
+        border: 1px solid #323131;
+        display: inline-block;
+        &:focus {
+          box-shadow: 0 0 0 0.25rem #0d6efd40;
+          border: 1px solid #323131 !important;
+          outline: none;
+        }
+      }
+      textarea {
+        height: 9rem;
+        display: inline-block;
+      }
+      .form_control_sm {
+        width: 135px;
+      }
+      * {
+        color: #323131;
+        font-weight: 300;
+      }
+      p {
+        font-size: 16px;
+      }
+      .btn-connect-wallet {
+        background-color: #085ed0;
+        color: #fff;
+        line-height: 1.5;
+        padding: 6px 25px;
+        font-size: inherit;
+        margin-top: 15px;
+        border-radius: 5px;
+        display: inline-block;
+        min-width: 238px;
+      }
+    }
+  }
+  #Brokerbot {
+    background: #f4f6f6;
+    ::selection {
+      background: #004d9e;
+      color: #fff;
+    }
+    .brokerbot_wrapper {
+      width: 100%;
+      max-width: 640px;
+      min-width: 320px;
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 24px;
+      border: 1px solid #dcdcdc;
+      background-color: #fafafa;
+      .card_header {
+        padding: 16px 20px;
+        background-color: #fafafa;
+        border-radius: 24px 24px 0 0;
+        .progress-bar {
+          background-color: #f0f0f0;
+          height: 2px;
+          margin-top: 10px;
+          color: #004d9e;
+        }
+      }
+      .card_body {
+        background-color: #f0f0f0;
+        border-radius: 24px;
+        padding: 28px;
+        box-sizing: border-box;
+        border: 1px solid #dcdcdc;
+        .title {
+          font-size: 28px;
+          font-weight: 700;
+          color: #000;
+        }
+        .form_control {
+          overflow: hidden;
+          .form_label {
+            font-size: 20px;
+            color: #000;
+            margin-top: 24px;
+            margin-bottom: 16px;
+          }
+        }
+        .btn_control {
+          background-color: #e6e6e6;
+          border-radius: 4px;
+          display: flex;
+          flex-direction: row;
+          border: 1px solid #d6d6d6;
+          .btn_selection {
+            flex-basis: 0;
+            flex-grow: 1;
+            text-align: center;
+            padding: 12px;
+            color: #0009;
+            border-radius: 4px;
+            background-color: transparent;
+            border: 1px solid transparent;
+            font-size: 14px;
+            font-weight: 400;
+            cursor: pointer;
+            &.active_btn {
+              background-color: #fafafa;
+              color: #004d9e;
+              border: 1px solid #004d9e;
+            }
+          }
+        }
+        .control_boss {
+          color: #000;
+          font-size: 16px;
+          border: 1px solid #d6d6d6;
+          .inside_text {
+            padding: 12px 12px 12px 16px;
+            background-color: #fafafa;
+          }
+          input {
+            border: none;
+            outline: none;
+          }
+          label {
+            margin-right: 16px;
+            padding-left: 16px;
+            color: #000;
+            border-left: 1px solid #e6e6e6;
+          }
+        }
+        .hover_border {
+          border: 1px solid transparent;
+          &:hover {
+            border: 1px solid #004d9e;
+          }
+        }
+        .btn_submit_action {
+          color: #fff;
+          text-align: center;
+          background-color: #004d9e;
+          border: 1px solid #004d9e;
+          border-radius: 4px;
+          padding: 16px;
+          font-size: 16px;
+          font-weight: 400;
+          cursor: pointer;
+          width: 100%;
+        }
+      }
+    }
+    .cta_box {
+      width: 18rem;
+      height: 18rem;
+      border: 2px solid #004d9e;
+      border-radius: 50%;
+      position: relative;
+      display: none;
+      .cta_text {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        // text-indent: -30000px;
+        z-index: 2;
+        text-decoration: none;
+        border-bottom: 0;
+        padding: 3rem 2rem;
+        text-align: center;
+        color: #004d9e;
+        transform: rotate(-10.22deg);
+      }
+    }
+  }
+  #PriceChart {
+    background: #f4f6f6;
+  }
+  #DownloadContent {
+    background: #f4f6f6;
+    .document_pdf {
+      font-size: 1.2222222222222223rem;
+      font-weight: 300;
+      display: flex;
+      align-items: center;
+      .pdf_icon {
+        display: inline-block;
+        height: 28px;
+        width: 24px;
+        background-position: 0 -22px;
+        background-image: url("../../../icons/iconset.png");
+        background-repeat: no-repeat;
+        background-size: 302px;
+      }
+    }
+    .primary_custom {
+      background: #004d9e;
+      color: #fff;
+      &:hover {
+        background: #003a77;
+      }
+    }
+  }
+}

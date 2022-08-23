@@ -1,0 +1,102 @@
+@font-face {
+  font-family: abc_favorit;
+  src: url(../fonts/abc_favorite.woff2);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+  font-family: abc_favorit;
+  scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  background: #000;
+  line-height: 1.4;
+  font-weight: 400;
+  min-height: 100%;
+  color: #fff;
+}
+// ..............root variables ............
+:root {
+  // color variable
+  --text-57: #5768ff;
+  --text-01: #010101;
+  --text-26: #262626;
+}
+
+// ............global default settings.................
+
+.section_container {
+  width: 100%;
+  max-width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+a,
+a:hover {
+  color: #fff;
+}
+.btn {
+  font-size: 1rem;
+  text-transform: none;
+}
+.text-size-medium {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+.action_arrow {
+  color: #fff !important;
+  opacity: 0.8;
+  font-size: 1.25rem;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.6);
+  padding-bottom: 0.5rem;
+  transition: 0.2s;
+  * {
+    transition: 0.2s;
+  }
+  &:hover {
+    opacity: 1;
+    .arrow {
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+.section_padding_top {
+  padding-top: 12rem;
+  @media (max-width: 991px) {
+    padding-top: 8rem;
+  }
+}
+
+.w-button {
+  &:hover {
+    color: #000 !important;
+  }
+}
+.invert-colors {
+  &:hover {
+    color: #fff !important;
+  }
+}
+// mdb update class
+.accordion-item {
+  background: transparent;
+  // custom accordion;
+  &.w-dyn-item:hover {
+    opacity: 1 !important;
+  }
+  .accordion-icon {
+    transition: 0.2s;
+    &.icon_rotate {
+      transform: rotate(45deg);
+    }
+  }
+}

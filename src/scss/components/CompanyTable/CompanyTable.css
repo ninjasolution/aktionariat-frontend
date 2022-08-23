@@ -1,0 +1,13 @@
+#CompanyTable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#CompanyTable table tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+#CompanyTable table tr td:not(:first-child) {
+  padding: 1rem;
+}
+/*# sourceMappingURL=CompanyTable.css.map */

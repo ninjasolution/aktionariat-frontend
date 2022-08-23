@@ -1,0 +1,14 @@
+#CompanyTable {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    tr {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      td {
+        &:not(:first-child) {
+          padding: 1rem;
+        }
+      }
+    }
+  }
+}

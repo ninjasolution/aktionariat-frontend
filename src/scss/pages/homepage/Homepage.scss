@@ -1,0 +1,62 @@
+
+#Homepage {
+  #CreateMarketSection {
+    padding-top: 12rem;
+    @media (max-width: 991px) {
+      padding-top: 8rem;
+    }
+    background-image: linear-gradient(0deg, #000, transparent),
+      linear-gradient(180deg, hsla(0, 0%, 100%, 0.1), transparent),
+      url(../../../images/pages/homepage/bg.svg);
+    background-position: 0 0, 0 0, 0 0;
+    background-size: auto, auto, 100%;
+    background-repeat: repeat, repeat, no-repeat;
+    .jumbo_text {
+      max-width: 734px;
+      @media (max-width: 991px) {
+        max-width: 600px;
+      }
+      h1 {
+        margin-bottom: 2rem;
+        // font-size: 5.5rem;
+        line-height: 1;
+        font-weight: 700;
+        letter-spacing: -0.03em;
+        .text-gradient-3 {
+          background-image: linear-gradient(45deg, #ed5d99, #4d4dff);
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -webkit-box-decoration-break: clone;
+        }
+      }
+    }
+    .req_wrapper {
+      @media (max-width: 991px) {
+        width: 100%;
+      }
+    }
+    .req_demo {
+      width: 384px;
+      display: inline-flex;
+      justify-content: space-between;
+      @media (max-width: 991px) {
+        width: 100%;
+      }
+    }
+    .company_logo_row {
+      img {
+        max-height: 2.5rem;
+        opacity: 0.8;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  #Companies {
+    background: hsla(0, 0%, 100%, 0.1);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}

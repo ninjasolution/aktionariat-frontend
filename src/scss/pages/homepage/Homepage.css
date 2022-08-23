@@ -1,0 +1,77 @@
+#Homepage #CreateMarketSection {
+  padding-top: 12rem;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#000), to(transparent)), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), to(transparent)), url(../../../images/pages/homepage/bg.svg);
+  background-image: linear-gradient(0deg, #000, transparent), linear-gradient(180deg, rgba(255, 255, 255, 0.1), transparent), url(../../../images/pages/homepage/bg.svg);
+  background-position: 0 0, 0 0, 0 0;
+  background-size: auto, auto, 100%;
+  background-repeat: repeat, repeat, no-repeat;
+}
+
+@media (max-width: 991px) {
+  #Homepage #CreateMarketSection {
+    padding-top: 8rem;
+  }
+}
+
+#Homepage #CreateMarketSection .jumbo_text {
+  max-width: 734px;
+}
+
+@media (max-width: 991px) {
+  #Homepage #CreateMarketSection .jumbo_text {
+    max-width: 600px;
+  }
+}
+
+#Homepage #CreateMarketSection .jumbo_text h1 {
+  margin-bottom: 2rem;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+#Homepage #CreateMarketSection .jumbo_text h1 .text-gradient-3 {
+  background-image: linear-gradient(45deg, #ed5d99, #4d4dff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+}
+
+@media (max-width: 991px) {
+  #Homepage #CreateMarketSection .req_wrapper {
+    width: 100%;
+  }
+}
+
+#Homepage #CreateMarketSection .req_demo {
+  width: 384px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+  #Homepage #CreateMarketSection .req_demo {
+    width: 100%;
+  }
+}
+
+#Homepage #CreateMarketSection .company_logo_row img {
+  max-height: 2.5rem;
+  opacity: 0.8;
+}
+
+#Homepage #CreateMarketSection .company_logo_row img:hover {
+  opacity: 1;
+}
+
+#Homepage #Companies {
+  background: rgba(255, 255, 255, 0.1);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+/*# sourceMappingURL=Homepage.css.map */

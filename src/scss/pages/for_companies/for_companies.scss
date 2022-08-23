@@ -1,0 +1,25 @@
+#ForCompanies {
+  #secondary-market {
+    .accordion-item {
+      background: transparent;
+      opacity: 0.6;
+      transition: 0.2s;
+      * {
+        transition: 0.2s;
+      }
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+  .w-button{
+    &:hover{
+        color: black;
+    }
+    &.invert-colors{
+        &:hover{
+            color: white;
+        }
+    }
+  }
+}
