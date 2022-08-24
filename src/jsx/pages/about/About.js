@@ -373,7 +373,7 @@ const Team = () => {
         },
         {
             id: 4,
-            img: require('../../../images/pages/about/Błądek.jpg'),
+            img: require('../../../images/pages/about/Bladek.jpg'),
             name: 'Piotr Błądek',
             role: 'Senior Software Engineer',
             description: 'Tokenization proponent, investor and board member in various startups',
