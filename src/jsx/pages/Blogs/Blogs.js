@@ -133,7 +133,7 @@ const OldestBlogPosts = () => {
             revolutionieren?`,
             link: '/blogs/federal-council-enables-crypto-securities',
             date: 'December 14, 2020',
-            img: require('../../../images/pages/blog/können_interview_blog.jpg')
+            img: require('../../../images/pages/blog/konnen_interview_blog.jpg')
         },
         {
             id: 13,
